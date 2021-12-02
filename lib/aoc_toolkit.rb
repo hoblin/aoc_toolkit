@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
+require "active_support/all"
+require "fileutils"
 require_relative "aoc_toolkit/version"
+require_relative "aoc_toolkit/cli"
 
 module AocToolkit
   TIMEZONE = "Eastern Time (US & Canada)"
