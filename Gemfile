@@ -18,3 +18,5 @@ gem "guard-rspec"
 gem "guard-bundler"
 
 gem "timecop"
+
+gem "activesupport"
