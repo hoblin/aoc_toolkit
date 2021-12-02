@@ -14,3 +14,7 @@ gem "standard", "~> 1.3"
 gem "guard-standardrb"
 
 gem "guard-rspec"
+
+gem "guard-bundler"
+
+gem "timecop"
