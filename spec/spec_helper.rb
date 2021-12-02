@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
 require "aoc_toolkit"
+require "active_support/all"
+require "fileutils"
+require "timecop"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
