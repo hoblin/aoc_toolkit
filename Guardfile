@@ -38,6 +38,7 @@ end
 
 guard :standardrb, fix: true, all_on_start: false, progress: true do
   watch(/.+\.rb$/)
+  watch(/exe\/.+$/)
   ["Gemfile", "Guardfile"].each { |filename| watch filename }
 end
 
