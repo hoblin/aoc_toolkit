@@ -7,7 +7,7 @@ require_relative "aoc_toolkit/cli"
 
 module AocToolkit
   TIMEZONE = "Eastern Time (US & Canada)"
-  QUIZ_DIR = File.join(File.dirname(__FILE__), "..", "quiz")
+  QUIZ_DIR = File.join(Dir.pwd, "quiz")
 
   class Error < StandardError; end
 
